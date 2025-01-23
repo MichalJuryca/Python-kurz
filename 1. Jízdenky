@@ -1,0 +1,32 @@
+print("VÍTEJTE U NASI APLIKACE DESTINATIO!")
+mesta = ["Praha", "Viden", "Olomouc", "Svitavy", "Zlin", "Ostrava"]
+ceny = (150, 200, 120, 120, 100, 180)
+
+dvojčára = "=" * 35
+print(dvojčára)
+
+nabídka = """
+1 - Praha   | 150
+2 - Viden   | 200
+3 - Olomouc | 120
+4 - Svitavy | 120
+5 - Zlin    | 100
+6 - Ostrava | 180
+"""
+
+print(nabídka)
+print(dvojčára)
+
+
+destinace = input("CISLO DESTINACE:")
+
+spravna_destinace = mesta[int(destinace) - 1]
+cena = ceny[int(destinace) -1 ]
+jmeno = input("JMENO:")
+prijmeni = input("PRIJMENI:")
+email = input("EMAIL:")
+print(dvojčára)
+
+print(f"""DEKUJI, {jmeno}, ZA OBJEDNAVKU,
+CIL. DESTINACE: {spravna_destinace}, CENA JIZDNEHO: {cena},
+NA TVUJ MAIL {email} JSME TI POSLALI LISTEK.""")
