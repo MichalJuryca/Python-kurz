@@ -5,12 +5,15 @@ bill = 0
 if height >=87:
     print("Můžete jet na horské dráze.")
     age = int(input("Jaký je váš věk?\n"))
-    if age < 12:
+    if age < 12:              # můžu zapsat jako: elif age >= 12 and age < 18:
         bill = 50
         print("Cena vašeho lístku je 50 Kč.")
     elif age < 18:
         bill = 100
         print("Cena vašeho lístku je 100 kč")
+    elif age >= 40 and age <=50:
+        bill = 0
+
     else:
         bill = 150
         print("Cena vašeho lístku je 150 kč")
