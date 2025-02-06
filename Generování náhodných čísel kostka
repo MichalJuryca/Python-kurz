@@ -1,0 +1,12 @@
+# Generování náhodných čísel (kostka 1-6)
+# dle kodu je to vypiš číslo zaokrouhlene na cele čisla, pak nahodné číslo od 0 do 6
+import random
+import math
+
+
+print(math.ceil(random.random() * 6))
+print(math.ceil(random.random() * 6))
+print(math.ceil(random.random() * 6))
+print(math.ceil(random.random() * 6))
+print(math.ceil(random.random() * 6))
+print(math.ceil(random.random() * 6))
