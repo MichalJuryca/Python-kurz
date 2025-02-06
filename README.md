@@ -6,3 +6,10 @@ Nástroj pro ASCII kody
 
 odkaz: https://ascii.co.uk/art
 
+Zeptej se Pythona?? (Nápovědy)
+
+![image](https://github.com/user-attachments/assets/a0b2202e-18a1-4c22-92b9-2be4bb16fc19)
+
+
+odkaz: https://www.askpython.com/
+
