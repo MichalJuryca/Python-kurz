@@ -1,18 +1,61 @@
-# BMI
-height = float(input("Vlozte svou výšku v metrech: "))
-weight = float(input("Vložte svou váhu v kg: "))
+########### Indexování
+# zaměstnanci = [
+#     'František', 'Bruno',
+#     'Anna', 'Jakub',
+#     'Klára', 'Anežka',
+#     'Anežka', 'Anežka'
+# ]
 
-bmi = weight / height ** 2
+# posledni_index = len(zaměstnanci) - 1
+# print("na indexu 2 je:", zaměstnanci[2])
+# print("Na", posledni_index, "indexu je:", zaměstnanci[posledni_index])
+# print("V intervalu od 2 do 5 je:", zaměstnanci[2:6])
+# print("Každý třetí člen je:", zaměstnanci[::3])
 
-print(round(bmi, 1))
 
-if bmi < 18.5:
-    print(f"Váš BMI má hodnotu {round(bmi, 1)}, máte podváhu")
-elif bmi <24.9:
-    print(f"Váš BMI má hodnotu {round(bmi, 1)}, jste v normálu")
-elif bmi <29.9:
-    print(f"Váš BMI má hodnotu {round(bmi, 1)}, máte nadváhu")
-elif bmi <34.9:
-    print(f"Váš BMI má hodnotu {round(bmi, 1)}, jste obézní")
-else:
-    print(f"Váš BMI má hodnotu {round(bmi, 1)}, máte extremni obezitu")
+
+
+
+########## BMI David Šetek
+
+# height = float(input("Vlozte svou výšku v metrech: "))
+# weight = float(input("Vložte svou váhu v kg: "))
+
+# bmi = weight / height ** 2
+
+# print(round(bmi, 1))
+
+# if bmi < 18.5:
+#     print(f"Váš BMI má hodnotu {round(bmi, 1)}, máte podváhu")
+# elif bmi <24.9:
+#     print(f"Váš BMI má hodnotu {round(bmi, 1)}, jste v normálu")
+# elif bmi <29.9:
+#     print(f"Váš BMI má hodnotu {round(bmi, 1)}, máte nadváhu")
+# elif bmi <34.9:
+#     print(f"Váš BMI má hodnotu {round(bmi, 1)}, jste obézní")
+# else:
+#     print(f"Váš BMI má hodnotu {round(bmi, 1)}, máte extremni obezitu")
+
+
+
+########## BMI 2 Engeto
+
+# jmeno = "Martin"
+# váha = 80
+# výška = 2
+
+# bmi = váha / výška ** 2
+# kategorie = "podvyživa", "Zdravá váha", "Mírná nadváha", "Obezita", "Těžká obezita"
+
+# if bmi > 40:
+#     kategorie = "Těžká obezita"
+# elif bmi > 30:
+#     kategorie = "Obezita"
+# elif bmi > 25:
+#     kategorie = "Mírná nadváha"
+# elif bmi > 18.5:
+#     kategorie = "Zdravá váha"
+# else:
+#     kategorie = "podvýživa"
+
+# print(jmeno, "Tvé BMI je", bmi, " což spadá do kaegorie", kategorie)
