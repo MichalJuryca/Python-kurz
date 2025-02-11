@@ -1,0 +1,10 @@
+zaměstnanci = ["František", "Anna", "Jakub", "Klára"]
+print("Zaměstnanci na začátku:", zaměstnanci)
+import copy
+zaměstnanci_a = zaměstnanci.copy()
+zaměstnanci_a.append("Bruno")
+zaměstnanci_a.append("Anežka")
+print("Nová jména přidána:", zaměstnanci_a)
+zaměstnanci_b = zaměstnanci.copy()
+zaměstnanci_b.insert(1, "Bruno")
+print("Nová jména vložena:", zaměstnanci_b)
