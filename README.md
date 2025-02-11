@@ -1,3 +1,10 @@
+Klávesové zkratky
+
+![image](https://github.com/user-attachments/assets/7a7fdf60-392c-4437-a47f-205f2becc34e)
+
+
+https://naklavesnici.cz/
+
 Nástroj pro ASCII kody
 
 ![Snímek obrazovky 2025-02-04 161210](https://github.com/user-attachments/assets/9a094a3f-9c33-4e33-8325-84bf651762c8)
