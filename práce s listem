@@ -1,0 +1,23 @@
+emloyees = ["David", "Harry", "Ron"]
+print(emloyees[0])
+print(emloyees[1])
+print(emloyees[2])
+
+# měníme položku
+
+emloyees[1] = "Hermiona"
+print(emloyees)
+
+# přidáváme obsah
+
+emloyees.append("Harry")
+print(emloyees)
+
+# Přidáváme více položek
+emloyees.extend(["Crabbe,", "Goyle"])
+print(emloyees)
+
+# Odstraňujeme položku
+
+emloyees.remove("Ron")
+print(emloyees)
