@@ -1,4 +1,4 @@
-# Generování náhodných čísel (kostka 1-6)
+### Generování náhodných čísel (kostka 1-6)
 # dle kodu je to vypiš číslo zaokrouhlene na cele čisla, pak nahodné číslo od 0 do 6
 import random
 import math
@@ -10,3 +10,14 @@ print(math.ceil(random.random() * 6))
 print(math.ceil(random.random() * 6))
 print(math.ceil(random.random() * 6))
 print(math.ceil(random.random() * 6))
+
+-------------------------------------------------------------------------------------
+### Generování mince (Panna - Orel)
+
+import random
+
+side_coin = random.randint(0,1)
+if side_coin == 0:
+    print("Hlava")
+else:
+    print("Panna")
