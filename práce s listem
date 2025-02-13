@@ -7,17 +7,33 @@ print(emloyees[2])
 
 emloyees[1] = "Hermiona"
 print(emloyees)
-
+------------------------------------------------------------------------------------------
 # přidáváme obsah
 
 emloyees.append("Harry")
 print(emloyees)
-
+------------------------------------------------------------------------------------------
 # Přidáváme více položek
 emloyees.extend(["Crabbe,", "Goyle"])
 print(emloyees)
-
+------------------------------------------------------------------------------------------
 # Odstraňujeme položku
 
 emloyees.remove("Ron")
 print(emloyees)
+
+------------------------------------------------------------------------------------------
+# vypisování listů dle pozice
+# indexError
+gryffindor = ["David", "Harry", "Ron", "Hermiona"]
+slytherin = ["Draco", "Crabbe", "Goyle"]
+
+number = len(gryffindor)
+print(number)
+# print(gryffindor[number]) délka není 3 jako indexace ale 4 jako delka retezce.
+
+# Nested list
+student = [gryffindor, slytherin]
+print(student[1][2])
+
+# tzn, že jsme vypsali studenta z prvního listu (gryffindor) na třetím pořadí 0-1-2 (Goyla)
