@@ -1,7 +1,3 @@
-# zkoužka
-#A
-
-## druhá změna
 
 
 
