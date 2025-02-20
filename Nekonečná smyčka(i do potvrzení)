@@ -28,3 +28,4 @@ while switch:
     print(uziv_vstup.capitalize())
 
 print("Ukončuji ukázku!")
+
