@@ -1,0 +1,6 @@
+index = 0
+prirustek = 1/4
+while (index * prirustek) <= 1.0:
+  print("Uvnitr bloku")
+  index = index + 1
+print("Mimo blok")
