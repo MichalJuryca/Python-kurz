@@ -1,6 +1,7 @@
 Klávesové zkratky
 
 ![image](https://github.com/user-attachments/assets/7a7fdf60-392c-4437-a47f-205f2becc34e)
+![image](https://github.com/user-attachments/assets/76592f7a-5161-4b66-ae7e-3320dd8c426d)
 
 
 https://naklavesnici.cz/
