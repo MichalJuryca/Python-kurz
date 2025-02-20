@@ -6,7 +6,7 @@ while  len(fib_numbers) <=15:
   fib_numbers.append(fib_numbers[-1] + fib_numbers[-2])
 print(fib_numbers)
 ---------------------------------------------------------------------------------
-### jak když cyklování (musí se potvrdit, aby cyklus přestal
+### nekonečná smyčka (musí se potvrdit, aby cyklus přestal)
 
 while True:
     uziv_vstup = input("Zapiš libovolný text [nebo 'q' pro ukončení]: ")
