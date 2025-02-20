@@ -20,3 +20,10 @@ Zeptej se Pythona?? (Nápovědy)
 
 odkaz: https://www.askpython.com/
 
+Průběh kodu (procházení co kod dělá krok po kroku
+
+![image](https://github.com/user-attachments/assets/49313ecf-d70d-4566-b721-1d2e70fb41a9)
+
+
+https://pythontutor.com/
+
