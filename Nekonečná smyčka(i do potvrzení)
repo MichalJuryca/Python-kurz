@@ -1,0 +1,7 @@
+### zápis nekonečné smyčky do ukončení písmenem q. (Může být i velké Q)
+
+while (uziv_vstup := input("Zapiš libovolný text [nebo 'q' pro ukončení]: ")) != "q":
+    print(uziv_vstup.upper())
+
+print("Ukončuji ukázku!")
+----------------------------------------------------------------------------------------
