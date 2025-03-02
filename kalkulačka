@@ -1,0 +1,33 @@
+while True:
+  # Zapiš výběr operace, kterou kalkulačka disponuje
+    operation = input('''
+Sčítání:    "+",
+Odčítání:   "-",
+----------------------
+Vyber si operaci: '''
+                )
+
+    # Ověř zda uživatel zvolil platný operátor
+    if operation not in ('+','-'):
+        print('Nezadali jste platný operátor, zkuste to znovu.')
+        continue
+
+    # Získej čísla pro výpočet od uživatele
+    number_1 = int(input('Zadej první číslo: '))
+    number_2 = int(input('Zadej druhé číslo: '))
+
+    # Dle operátoru proveď výpočet a vypiš ho
+    if operation == '+':
+        print(f'{number_1} + {number_2} = {number_1 + 
+number_2}')
+    elif operation == '-':
+        print(f'{number_1} - {number_2} = {number_1 - number_2}')
+
+    # Ověř zda chce uživatel pokračovat nebo chce program ukončit
+    again = input('Chcete provést další operaci?(a pro ano, jakákoliv jiná klávesa pro ne): ')
+
+    if again == 'a':
+        continue
+    else:
+        print('Ukončuji...')
+        break
