@@ -1,0 +1,9 @@
+ovoce = {"jablko", "banan", "citron", "pomeranc"}
+print("Dostupne ovoce:", ", ".join(ovoce))
+while True:
+    vyber = input("vyber z dostupneho ovoce: ". upper())
+    if vyber not in ovoce:
+        print("ovoce neni v nabidce.")
+    else:
+        print("bezva, toto ovoce je v nabidce")
+        break
