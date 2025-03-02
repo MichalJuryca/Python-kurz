@@ -1,0 +1,12 @@
+slova = set()
+
+while len(slova) != 3:
+    slovo = input("zadej slovo ze čtyř: ". upper())
+    if slovo in slova:
+        print("Slovo", slovo, ("už je uložene"))
+    elif len(slovo) == 4:
+        slova.add(slovo)
+    else:
+        print("Slovo neni dlouhe čtyři znaky")
+else:
+    print("už ma uložene tři slova")
