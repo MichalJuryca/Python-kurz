@@ -1,0 +1,15 @@
+import random #import knihovny random
+
+moznosti = ["kamen", "nuzky", "papir"]
+hrac = ("kamen")
+pocitac = random.choice(moznosti) # výběr jednoho prvku ze zadané sekvence
+
+print("Hráč:", hrac)
+print("Počítač:", pocitac)
+
+if hrac == "kamen" and pocitac == "nuzky":
+    print("vyhral jsi")
+elif hrac == "kamen" and pocitac == "papir":
+    print("Prohrál jsi")
+else:
+    print("Nerozhodně")
