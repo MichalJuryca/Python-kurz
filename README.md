@@ -28,3 +28,9 @@ Průběh kodu (procházení co kod dělá krok po kroku
 
 https://pythontutor.com/
 
+Procvičování kodů
+
+
+
+https://krython.vnovak.cz/task/1
+
