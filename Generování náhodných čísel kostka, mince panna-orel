@@ -21,3 +21,16 @@ if side_coin == 0:
     print("Hlava")
 else:
     print("Panna")
+
+-------------------------------------------------------------------------------------
+### generování random (pokud se vyskytuje v listu "Emocuc) + vypíše na jaké pozici(indexu)
+
+import random
+posadka = ['Kryton', 'Dave Lister', 'Arnold J. Rimmer', 'Kocour']
+if (random.choice([True, False])):
+    posadka.insert(random.randint(0, 4), 'Emocuc')
+print(posadka)
+if ('Emocuc' in posadka):
+    print(posadka.index('Emocuc'))
+else:
+    print('OK')
