@@ -34,3 +34,12 @@ Procvičování kodů
 
 https://krython.vnovak.cz/task/1
 
+Unicode (všechny unikody)
+
+![image](https://github.com/user-attachments/assets/17161e72-2db4-42c7-b831-aa9152b62f52)
+
+https://symbl.cc/en/unicode-table/#thaana
+
+
+
+
